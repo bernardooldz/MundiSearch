@@ -25,10 +25,11 @@ h1 {
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
 
+/* Estiliza o quadrado ao fundo da parte de pesquisa */
 #fundo_pesquisa{
     background-color: rgba(252, 252, 252, 0.5);
-    padding: 20px;
-    border-radius: 20px;
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 20px; /* Borda arredondada */
 }
 
 /* Estiliza as seções da página */
@@ -52,6 +53,7 @@ section input {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Sombra leve */
 }
 
+/* Tira uma borda que vem por padrão ao clicar no input */
 section input:focus{
     outline: none;
 }
@@ -63,22 +65,34 @@ section button {
     border-radius: 1.5rem; /* Borda arredondada */
     background-color: #30475E; /* Cor de fundo do botão */
     color: #F5F7F8; /* Cor do texto do botão */
-    font-size: 1rem; /* Tamanho da fonte */
+    font-size: 0rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    transition: 0.2s;
+    transition: 0.8s; /* Tempo para ocorrer modificações no elemento */
+    margin-right: 15px; /* Espaço entre o elemento e o elemento a sua direita */
+    text-align: center; /* Centraliza os itens horizontalmente */
 }
 
+/* Personalização do icone dentro da tag botton */
 section button i{
-    margin-left: 7px;    
-    transition: 0.7s;
+    margin-left: 7px; /* Espaço entre o elemento e o elemento a sua esquerda */
+    transition: 0.7s; /* Tempo para ocorrer modificações no elemento */
+    font-size: 1rem; /* Tamanho da fonte */
 }
 
+/* Muda a cor do botão ao passar o mouse por cima */
 section button:hover{
-    background-color: #7a98b6;
+    background-color: #3a5b7c; /* Cor de fundo do botão */
+    font-size: 1rem; /* Tamanho da fonte */
 }
 
+/* Cria um efeito de rolagem no icone ao passar o mouse por cima */
 section button:hover i{
     rotate: 360deg;
+}
+
+/* Deixa os botões lado a lado */
+.alinhamento-botao{
+    display: flex;
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
@@ -91,28 +105,29 @@ section button:hover i{
     border-radius: 0.6rem; /* Borda arredondada */
 }
 
-.resultados-pesquisa::-webkit-scrollbar {
-    width: 5px;
-    border-radius: 10px;
+/* Personalização da scrollbar */
+.resultados-pesquisa::-webkit-scrollbar { 
+    width: 5px; /* Dá uma largura à scrollbar */
+    border-radius: 10px; /* Arredonda as bordas da scrollbar */
   }
   
   .resultados-pesquisa::-webkit-scrollbar-track {
-    background: #e1e1e1;
-    border-radius: 10px;
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: #e1e1e1; /* Colore o fundo da scrollbar */
+    border-radius: 10px; /* Arredonda as bordas do quadrado da scrollbar */
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); /* Cria sombras para o quadrado da scrollbar */
   }
   
   .resultados-pesquisa::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #30475E, #7a98b6);
-    border-radius: 10px;
+    background: linear-gradient(to bottom, #30475E, #7a98b6); /* Colore o quadrado da scrollbar */
+    border-radius: 10px; /* Arredonda as bordas do quadrado da scrollbar */
   }
 
 /* Estiliza cada item de resultado */
 .item-resultado {
     background: #FFFFFF; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
-    padding-block: 1rem; /* Espaçamento interno */
-    padding-inline: 2rem;
+    padding-block: 1rem; /* Espaçamento interno verticalmente */
+    padding-inline: 2rem; /* Espaçamento interno horizontalmente */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Sombra leve */
 }
@@ -123,10 +138,12 @@ section button:hover i{
     color: #222831; /* Cor do texto */
 }
 
+/* Torna a formatação do texto dentro da tag p justificado */
 .item-resultado p {
     text-align: justify;
 }
 
+/* Distancia do elemento em relação ao de baixo */
 .item-resultado ul{
     margin-bottom: 25px;
 }
@@ -135,11 +152,11 @@ section button:hover i{
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: #F5F7F8; /* Cor do texto dos links */
-    background-color: #30475E;
-    padding: 5px;
-    padding-inline: 15px;
-    border-radius: 7px;
-    transition: 0.3s;
+    background-color: #30475E; /* Cor de fundo */
+    padding: 5px; /* Espaçamento interno */
+    padding-inline: 15px; /* Espaçamento interno horizontalmente */
+    border-radius: 7px; /* Borda arredondada */
+    transition: 0.3s; /* Tempo para ocorrer modificações no elemento */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
@@ -153,10 +170,12 @@ section button:hover i{
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
+/* Tira os marcadores de lista que vem como padrão */
 ul{
     list-style: none;
 }
 
+/* Engrossa a letra das palavras dentro do span */
 li span{
     font-weight: 700;
 }
@@ -171,6 +190,5 @@ footer {
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 0.8rem; /* Tamanho da fonte */
-    font-weight: 500;
+    font-weight: 500; /* Engrossa a letra */
 }
-
