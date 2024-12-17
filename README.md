@@ -6,7 +6,7 @@ MundiSearch é um **aplicativo web simples e intuitivo** que permite pesquisar p
 
 ## 📝 **Descrição**
 
-Este projeto foi desenvolvido a partir dos conhecimentos adquiridos durante a **Imersão Dev Alura com Google Gemini** e marcou minha **primeira experiência com JavaScript**. O objetivo do MundiSearch é tornar a busca por informações sobre países algo fácil e acessível.
+Este projeto foi desenvolvido durante a **Imersão Dev Alura com Google Gemini** e marcou minha **primeira experiência com JavaScript**. O objetivo do MundiSearch é tornar a busca por informações sobre países algo fácil e acessível.
 
 ---
 
@@ -24,6 +24,20 @@ Este projeto foi desenvolvido a partir dos conhecimentos adquiridos durante a **
 
 ---
 
+## 🔗 **Acesse por aqui**
+🌐 [MundiSearch - Experimente agora!](https://bernardooldz.github.io/MundiSearch/)
+
+---
+
+## ⚠️ **Banco de Dados Manual**
+O banco de dados de países foi feito **manualmente**, e por isso **nem todos os países estão disponíveis ainda**. Caso você queira contribuir:
+- Sinta-se à vontade para **inserir novos países**.  
+- **Siga os modelos anteriores** e verifique se o país já não está inserido na base.
+
+Toda contribuição é bem-vinda! 🌟  
+
+---
+
 ## 🎯 **Objetivo do Projeto**
 O MundiSearch é uma aplicação prática desenvolvida para aplicar e reforçar os conhecimentos adquiridos durante o aprendizado de **HTML**, **CSS** e **JavaScript**, com foco em interatividade e usabilidade.
 
@@ -38,4 +52,3 @@ Este projeto representa o meu início no mundo da programação. Ele foi uma opo
 ---
 
 💡 **Sugestões e feedbacks são sempre bem-vindos!** 🚀
-
