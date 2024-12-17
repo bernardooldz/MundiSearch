@@ -1,16 +1,41 @@
-# MundiSearch: Seu guia para explorar o mundo
+# 🌍 **MundiSearch: Seu guia para explorar o mundo**
 
-## Descrição
-MundiSearch é um aplicativo web simples e intuitivo que permite aos usuários pesquisar por países e capitais. Ao digitar o nome de um país ou capital, o usuário recebe informações relevantes, como idioma oficial, moeda e um link para mais informações.
+MundiSearch é um **aplicativo web simples e intuitivo** que permite pesquisar por países e capitais. Receba informações relevantes, como **idioma oficial**, **moeda** e um **link** para saber mais.
 
-Esse projeto foi desenvolvido a partir dos conhecimentos adquiridos durante a Imersão Dev Alura com Google Gemini. Foi minha primeira experiência utilizando JavaScript.
+---
 
-## Funcionalidades
-* **Pesquisa por país ou capital:** O usuário pode digitar o nome completo ou parte do nome de um país ou capital.
-* **Resultados detalhados:** Para cada país encontrado, são exibidas informações como capital, idioma oficial, moeda e um link para mais informações.
-* **Interface intuitiva:** A interface é simples e fácil de usar, com um design limpo e moderno.
+## 📝 **Descrição**
 
-## Tecnologias Utilizadas
-* **HTML:** Estrutura básica da página.
-* **CSS:** Estilização da página, incluindo layout, cores e fontes.
-* **JavaScript:** Lógica da aplicação, incluindo a função de pesquisa e a manipulação do DOM.
+Este projeto foi desenvolvido a partir dos conhecimentos adquiridos durante a **Imersão Dev Alura com Google Gemini** e marcou minha **primeira experiência com JavaScript**. O objetivo do MundiSearch é tornar a busca por informações sobre países algo fácil e acessível.
+
+---
+
+## 🚀 **Funcionalidades**
+- 🔎 **Pesquisa por país ou capital**: Digite o nome completo ou parte do nome e encontre resultados rapidamente.  
+- 📋 **Resultados detalhados**: Informações como **capital**, **idioma oficial**, **moeda** e um **link para mais detalhes**.  
+- 💡 **Interface intuitiva**: Design **limpo**, **moderno** e de fácil navegação.
+
+---
+
+## 🛠 **Tecnologias Utilizadas**
+- **HTML**: Estrutura básica da aplicação.  
+- **CSS**: Estilização do layout, cores e fontes.  
+- **JavaScript**: Lógica da aplicação, manipulação do DOM e função de pesquisa.
+
+---
+
+## 🎯 **Objetivo do Projeto**
+O MundiSearch é uma aplicação prática desenvolvida para aplicar e reforçar os conhecimentos adquiridos durante o aprendizado de **HTML**, **CSS** e **JavaScript**, com foco em interatividade e usabilidade.
+
+---
+
+## 📌 **Sobre o Desenvolvimento**
+Este projeto representa o meu início no mundo da programação. Ele foi uma oportunidade para praticar:
+- Estruturação de conteúdo com **HTML**.  
+- Estilização e responsividade com **CSS**.  
+- Criação de funcionalidades interativas com **JavaScript**.
+
+---
+
+💡 **Sugestões e feedbacks são sempre bem-vindos!** 🚀
+
